@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Fiz um Front End para uma tela de login muito versátil, ou seja, pode ser utilizada por diversas empresas/negócios de diversos segmentos (além de possuir diversos temas diferentes em sua pasta de imagens, com um fácil alteração caso seja necessário ou a gosto so usuário)
+Fiz um Front End para uma tela de login muito versátil, ou seja, pode ser utilizada por diversas empresas/negócios de diversos segmentos (além de possuir diversos temas diferentes em sua pasta de imagens, com uma fácil alteração caso seja necessário ou a gosto so usuário)
 
 ---
 
