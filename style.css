@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); /*Fonte Usada */
+
+* { /* formatação inicial da página e adição da fonte */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Sansation", sans-serif;
+}
+
+body { /* centralizei os elentos e defini o fundo e como ele vai aparecer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./img/fundocinza.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.container { /* Aqui vai o contorno e marcação que ficará em volta do Login, Senha, etc */
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: #333; /* tudo que está dentro do conteiner vai ficar com a cor branca */
+    padding: 30px 40px; /* Altura e largura */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* sombreamento do conteiner */
+}
+
+.container h1 { /* centralizando Textos */
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box { /* Ajuste na posição do botão de login e etc */
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%; /* ocupa todo o espaço disponível */
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none; /* sem a linha que contorna os botões */
+    color: #fff;
+    padding: 20px 45px 20px 20px; /* os falores são definidos: Primeiro em cima, direita, em baixo e por fim esquerda */
+}
+
+.input-box input::placeholder { /* cor branca */
+    color: #fff;
+
+}
+
+.input-box i { /* ajuste dos desenhos nas barras de Email e Senha (Pessoa e cadeado) */
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    font-size: 20px;
+}
+
+.lembrar { /* ajuste no texto de lembrar de mim */
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.lembrar label input { /* ajuste no Chackbox */
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.lembrar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.lembrar a:hover { /* só fica em underline quando o mouse passar por cima */
+    text-decoration: underline;
+}
+
+.Login { /* ajuste no posicionamento, cores (branco), e sombreamento */
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+
+}
+
+.Login:hover { /* somente quando o mouse passar por cima, o fundo ficará transparente e a cor do texto branco */
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    transition: 0.5s;
+    
+}
+
+.registrar { /* alinhamento do "registrar conta" */
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 15px;
+}
+
+.registrar p {
+    color: #fff; /* para o texto "Não possui conta?" também ficar branco */
+}
+
+.registrar a {  /* deixa sem cor a parte do link (deixa branco) */
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.registrar a:hover { /* Manter abaixo e centralizado com o botão de login */
+    text-decoration: underline;
+}
